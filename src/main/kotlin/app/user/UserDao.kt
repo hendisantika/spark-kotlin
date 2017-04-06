@@ -7,10 +7,10 @@ class UserDao {
     // "Initialize" with a few users
     // This demonstrates type inference, map-literals and named parameters
     val users = hashMapOf(
-            0 to User(name = "Alice", email = "alice@alice.kt", id = 0),
-            1 to User(name = "Bob", email = "bob@bob.kt", id = 1),
-            2 to User(name = "Carol", email = "carol@carol.kt", id = 2),
-            3 to User(name = "Dave", email = "dave@dave.kt", id = 3)
+            0 to User(name = "Naruto", email = "naruto@konohagakure.com", id = 0),
+            1 to User(name = "Sasuke", email = "sasuke@konohagakure.com", id = 1),
+            2 to User(name = "Sakura", email = "sakura@konohagakure.com", id = 2),
+            3 to User(name = "Kakashi", email = "kakashi@konohagakure.com", id = 3)
     )
 
     var lastId: AtomicInteger = AtomicInteger(users.size - 1)
